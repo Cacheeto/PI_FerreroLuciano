@@ -1,0 +1,19 @@
+/*--- SECTION ABOUT-ME ---*/
+#about-me {
+    background-color:#22577E;
+}
+
+#about-me .container{
+    padding: 10vh 0;
+}
+
+#about-me .content-container{
+    color: white;
+    font-size: 24px;
+}
+
+#about-me img{
+    max-width: 300px;
+    border-radius: 5px;
+}
+
