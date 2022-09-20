@@ -24,7 +24,7 @@
 #hero h1{
     font-size: 72px;
 }
-
+/* efecto de entrada una vez que entra la pagina*/
 @keyframes FadeIn {
     from{
         opacity: 0;
@@ -33,9 +33,33 @@
         opacity: 1;
     }   
 }
-
+/*Responsive aplica cuando la imagen llega a 756 px se centra el texto*/
 @media (max-width:756px) {
-    .container{
+    .text-content{
+        text-align: left;
+    }
+    #hero{
         text-align: center;
+    }
+}
+
+/* About me*/
+/*Color de fondo de la seccion*/
+#about-me{
+    background-color:#ccdae4;
+    height: 30vh 0;
+    padding: 30px 0;
+}
+.profile{
+    position: relative;
+    margin-top: -130px;
+    margin-left: 50px;
+}
+
+/* Reponsive aplica cuando la imagen llega a 750px*/
+@media (max-width: 767px) {
+    .profile {
+        margin-left: auto;
+        size-adjust: auto;
     }
 }

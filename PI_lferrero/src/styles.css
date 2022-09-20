@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/*Fuente de google*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  color: #63b6c9;
+}
+
+img {
+  max-width: 100%;
+}
+
+i {
+  font-size: 1em;
+  transition: .4s;
+}
+
+main i:hover{
+  color: brown;
+  transform: scale(1.2);
+}

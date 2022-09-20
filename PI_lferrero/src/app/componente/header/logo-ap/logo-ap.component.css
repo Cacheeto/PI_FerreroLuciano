@@ -1,7 +1,8 @@
-
+/*color de las letras de la barra de navegacion*/
 nav div ul li a{
     color: white;
 }
+/*color al pasar por ensima de las letra de navegacion*/
 nav div ul li a:hover{
     color: #FFC167;
 }

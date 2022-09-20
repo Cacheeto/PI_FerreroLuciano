@@ -1,12 +1,16 @@
 section{
-    background-color:#22577E;
+    background-color:#ccdae4;
 }
 
 .row{
-    color: white;
     padding: 10vh 0;
 }
 
 .row h1{
     padding: 20px 0px;
 }
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
